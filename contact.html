@@ -45,6 +45,18 @@
 
     <!-- Start Custom CSS -->
       <style>
+        #edjc-contact-info {
+          margin-left:50px;
+        }
+        #edjc-contact-info2 {
+          margin-left:40px;
+        }
+        @media only screen and (max-width:993px) {
+          #edjc-contact-info, #edjc-contact-info2  {
+            margin-left:0px;
+          }
+        }
+
         #home-logo {
           content:url("images/uploads/logos/home-logo.png");
         }
@@ -225,17 +237,17 @@
                   <h4>Give Us a Call! Or Submit Your Info and We Will Get Back to You in 48 Hours!</h4>
                   <br /><br />
 
-                  <p class="d-flex" style="margin-left:50px;">
+                  <p class="d-flex" id="edjc-contact-info">
                     <span class="ion-ios-location icon mr-5"></span>
                     <a href="https://goo.gl/maps/JVT9Dk5RYw9WbVEi9" target="_blank"><span>3330 W 26th St<br />Ste 4 Unit #505<br />Erie PA 16506</span></a>
                   </p>
 
-                  <p class="d-flex" style="margin-left:50px;">
+                  <p class="d-flex" id="edjc-contact-info">
                     <span class="ion-ios-telephone icon mr-5"></span>
-                    <a href="tel:814-315-2026" data-rel="external"><span>(814)-315-2036</span></a>
+                    <a href="tel:814-315-2026" data-rel="external"><span>(814) 315-2036</span></a>
                   </p>
 
-                  <p class="d-flex" style="margin-left:40px;">
+                  <p class="d-flex" id="edjc-contact-info2">
                     <span class="ion-android-mail icon mr-5"></span>
                     <a href="mailto:info@eriedjco.com"> <span>info@eriedjco.com</span></a>
                   </p>
