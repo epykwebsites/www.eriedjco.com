@@ -9596,6 +9596,7 @@ header .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: .2em;
+  font-weight: bold;
 }
 
 @media (max-width: 1199.98px) {
